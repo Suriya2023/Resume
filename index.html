@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" type="image/png" sizes="32x32" href="./Untitled design.png">
     <title>Suraj Rajput - Front-End Developer</title>
     <style>
         :root {
@@ -79,23 +80,22 @@
         .header-text {
             text-align: left;
         }
-        
         .profile-image-container {
             position: relative;
             width: 150px;
             height: 150px;
-            border-radius: 50%;
+            /* border-radius: 50%; */
             overflow: hidden;
-            border: 3px solid rgba(255, 255, 255, 0.7);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            /* border: 3px solid rgba(255, 255, 255, 0.7); */
+            /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
         }
-        
+
         .profile-image {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-        
+
         .upload-placeholder {
             width: 100%;
             height: 100%;
@@ -103,17 +103,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: rgba(255, 255, 255, 0.2);
+            /* background-color: rgba(255, 255, 255, 0.2); */
             color: white;
             font-size: 0.9rem;
             text-align: center;
             cursor: pointer;
         }
-        
-        .upload-placeholder svg {
-            width: 30px;
-            height: 30px;
-            margin-bottom: 10px;
+
+        .upload-placeholder img {
+            width: 100%;
+            border-radius: 50%;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+
         }
         
         h1 {
@@ -405,25 +408,26 @@
                             <span>📧</span>
                             <span>surajrajput221221@gmail.com</span>
                         </div>
-                        <div class="contact-item">
+                       <div class="contact-item">
                             <span>🔗</span>
-                            <a href="#" class="demo-link" style="color: white; border-color: rgba(255,255,255,0.5);">LinkedIn</a>
+                            <a href="www.linkedin.com/in/suraj-rajput-a65bb9358" class="demo-link"
+                                style="color: white; border-color: rgba(255,255,255,0.5);">LinkedIn</a>
                         </div>
                         <div class="contact-item">
                             <span>🔗</span>
-                            <a href="#" class="demo-link" style="color: white; border-color: rgba(255,255,255,0.5);">GitHub</a>
+                            <a href="https://github.com/Suriya2023" class="demo-link"
+                                style="color: white; border-color: rgba(255,255,255,0.5);">GitHub</a>
                         </div>
                     </div>
                 </div>
                 
                 <div class="profile-image-container">
                     <div class="upload-placeholder">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                        Add Profile Photo
+                        <img id="myimg" src="./resume/Untitled design.png" alt="">
                     </div>
+                    <!-- Uncomment below and replace with your image URL when ready -->
+                    <!-- <img src="/api/placeholder/150/150" alt="Suraj Rajput" class="profile-image"> -->
+                 
                     <!-- Uncomment below and replace with your image URL when ready -->
                     <!-- <img src="/api/placeholder/150/150" alt="Suraj Rajput" class="profile-image"> -->
                 </div>
@@ -464,7 +468,7 @@
                     <div class="project-card">
                         <h3>
                             <span class="project-title">E-Commerce Website</span>
-                            <a href="#" class="demo-link">Live Demo</a>
+                            <a href="https://suriya2023.github.io/ecommerce/" class="demo-link">Live Demo</a>
                         </h3>
                         <p class="project-type">Full-Stack Web Application</p>
                         <ul>
@@ -480,7 +484,7 @@
                     <div class="project-card">
                         <h3>
                             <span class="project-title">Professional Barber Shop Website</span>
-                            <a href="#" class="demo-link">Live Demo</a>
+                            <a href="suriya2023.github.io/BarBer_Shop/" class="demo-link">Live Demo</a>
                         </h3>
                         <p class="project-type">React & Vite Web Application</p>
                         <ul>
@@ -490,6 +494,23 @@
                             <li>Utilized modern UI components to enhance visual appeal and user engagement</li>
                         </ul>
                     </div>
+
+
+                    <div class="project-card">
+                        <h3>
+                            <span class="project-title">Professional Basic Movie /Webseries Website</span>
+                            <a href="https://web-series-movies.vercel.app/" class="demo-link">Live Demo</a>
+                        </h3>
+                        <p class="project-type">React & Vite Web Application</p>
+                        <ul>
+                            <li>Designed and developed a multi-page professional service website</li>
+                            <li>Created smooth page transitions and intuitive navigation structure</li>
+                            <li>Implemented PWA support for mobile installation and offline functionality</li>
+                            <li>Implemented responsive design principles for optimal viewing across all devices</li>
+                            <li>Utilized modern UI components to enhance visual appeal and user engagement</li>
+                        </ul>
+                    </div>
+                    
                 </div>
             </section>
             
